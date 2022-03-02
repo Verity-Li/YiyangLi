@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "9492ad581891a8086ce6",
-    "url": "/YiyangLi/static/css/main.207c3bcc.chunk.css"
+    "revision": "d2219bffc81cf8b33195",
+    "url": "/YiyangLi/static/css/main.e507dbc1.chunk.css"
   },
   {
-    "revision": "9492ad581891a8086ce6",
-    "url": "/YiyangLi/static/js/main.9492ad58.chunk.js"
+    "revision": "d2219bffc81cf8b33195",
+    "url": "/YiyangLi/static/js/main.d2219bff.chunk.js"
   },
   {
     "revision": "af08dc77e4e76da41e54",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/YiyangLi/static/media/TakeMeOut.231b0c19.png"
   },
   {
-    "revision": "496d7bfad7c4ee4c45fdf2c318df2bf7",
+    "revision": "da01904c0b8c83529956a3dd89670217",
     "url": "/YiyangLi/index.html"
   }
 ];
