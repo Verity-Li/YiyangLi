@@ -1,0 +1,205 @@
+
+.all-work-container{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.work-container{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    text-align: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    margin-top: 48px;
+    margin-bottom: 60px;
+    z-index: 2;
+}
+
+
+
+.all-work-container .title{
+    position: absolute;
+    top:0;
+    display: block;
+    width: 24vw;
+    height: 20vw;
+    z-index: 3;
+    border: none;
+}
+
+.title-img{
+    width: 100%;
+    height: 100%;
+    background-image: url('ExperienceDesign.png');
+    background-repeat:no-repeat;
+    background-size: contain;
+    border: none;
+    
+}
+
+
+.work-card{
+    width: 100%;
+    height: 45vh;
+    min-height: 420px;
+    display: flex;
+    align-items:center;
+    text-align: center;
+    justify-content: left;
+    flex-wrap: wrap;
+
+}
+
+.work-card-text{
+    display: block;
+    width: 50%;
+    height: 100%;
+    padding: 46px 64px 48px 64px;
+    text-align: left;
+    background-color: white;
+    /* border-radius: 0 20px 20px 0 ; */
+}
+
+.work-card-text .work-time-stamp{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 23px;
+    text-transform: uppercase;
+
+    color: var(--light-gray);
+    
+}
+
+.work-card-text .work-title{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 46px;
+
+    color: var(--light-purple);
+    
+}
+
+.work-card-text .work-client{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    text-transform: uppercase;
+
+    color: var(--light-gray);
+    margin-bottom: 42px;
+    
+}
+
+.work-card-text .work-explaination{
+    width: 100%;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 29px;
+    margin-bottom: 64px;
+
+    color: #5A5957;
+}
+
+.work-tags{
+    display: flex;
+    align-items:flex-start;
+    text-align: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    bottom: 48px;
+    margin-bottom: 0;
+    padding: 0;
+    width: fit-content;
+    
+}
+
+.work-tags li{
+    display: block;
+    list-style-type: none;
+    
+    padding: 10px 20px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    background-color:var(--light-light-gray) ;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 900;
+    color: var(--light-gray);
+
+}
+
+.work-card .take-me-out{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    /* background-image: url('../../../assets/Home/TakeMeOut.png');
+    background-repeat:no-repeat;
+    background-size: cover; */
+    /* border-radius: 20px 0 0 20px; */
+}
+.work-card .take-me-out img{
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../assets/Home/TakeMeOut.png');
+    background-repeat:no-repeat;
+    background-size: cover; 
+
+    /* border-radius: 20px 0 0 20px; */
+}
+.work-card img{
+    transform: scale(1);
+    transition: all 0.5s ease-in-out;
+
+    /* border-radius: 20px 0 0 20px; */
+}
+.work-card:hover img{
+    transform: scale(1.05);
+    transition: all 0.5s ease-in-out;
+
+    /* border-radius: 20px 0 0 20px; */
+}
+
+.work-card .cili{
+    width: 50%;
+    height:100%;
+    overflow: hidden;
+    /* background-image: url('../../../assets/Home/Cili.png');
+    background-repeat:no-repeat;
+    background-size: cover; */
+    /* border-radius: 20px 0 0 20px; */
+}
+
+.work-card .cili img{
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../assets/Home/Cili.png');
+    background-repeat:no-repeat;
+    background-size: cover; 
+
+    /* border-radius: 20px 0 0 20px; */
+}
+
+@media screen and (max-width:910px){
+    .work-card-text{
+        width: 100vw;
+    }
+    .take-me-out{
+        width: 100vw !important;
+    }
+    .cili{
+        width: 100vw !important;
+    }
+    .all-work-container .title{
+        width: 80vw !important;
+        height: 80vw !important;
+    }
+}
